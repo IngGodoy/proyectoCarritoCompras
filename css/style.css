@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    background-color:#060606;
+    color: #FDFEFE;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
+    #logo{
+        margin-left: 2%;
+     }
+    #logo img {
+          width: 200px;
+     }
+    nav{
+    margin-right: 5%;
+    
+     }
+    nav a {
+        color: #FDFEFE;
+      }
+    #titulo{
+        font-size: 18px;
+         text-align: center;
+      }  
+main{
+    background-color:#F5B041;
+}
+  #acordeon{
+    display:flex;
+    justify-content:center;
+    background-color: #6B17D0;
+  }
+  #acordeon img{
+    width: 40%;
+  }
+  #tituloProductos{
+    padding-top: 10px;
+    text-align: center;
+  }
+ section{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 16px;
+    padding-bottom: 20px;
+ } 
+    #seccionPrincipal div img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border-color: #060606;
+        border-style: solid;
+    }  
+    #seccionPrincipal div img:hover{
+        width: 205px;
+        height: 205px;
+    }
+    h3{
+        text-align: center;
+    }
+
+
+footer{
+    background-color:#060606;
+    color: #FDFEFE;
+    display: flex;
+    justify-content:space-around;
+}
+    footer div{
+        width: 35%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    #redesSociales{
+        display: flex;
+        justify-content:stretch;
+        padding-right: 10px;
+    }
+     #redesSociales img{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+     }
